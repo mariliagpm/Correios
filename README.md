@@ -1,5 +1,5 @@
 #Lojas Americanas Automation Project
-This is project structure for Lojas Americanas WebSite Automation. 
+This is project structure for Correios WebSite Automation. 
 
 As a base, it has implementation of different profiles WebDrivers, 
 Screenshot implementation and more.

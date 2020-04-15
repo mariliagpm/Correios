@@ -11,7 +11,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/resources/functionalTests/",tags="@compra", glue = "", plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/Reports/report.html" }, monochrome = true)
+@CucumberOptions(features = "src/test/resources/functionalTests/",tags="@zipCode", glue = "", plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/Reports/report.html" }, monochrome = true)
 public class TestRunner {
 
 	@AfterClass

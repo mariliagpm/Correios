@@ -21,6 +21,7 @@ public class HomeInteraction extends HomePage {
 		try { 
 			goToUrl(getTestData("homePage"));//redirecionando pra homepage
 			log.info("User is in the Home Page");
+			log.info("Home page is "+getTestData("homePage"));
 		} catch (Exception e) {
 			log.error("It was not possible to redirect to HomePage");
 			log.error(e.getMessage());
