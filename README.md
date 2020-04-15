@@ -1,4 +1,4 @@
-#Lojas Americanas Automation Project
+#Correios -  Automation Project
 This is project structure for Correios WebSite Automation. 
 
 As a base, it has implementation of different profiles WebDrivers, 
